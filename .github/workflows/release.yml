@@ -9,7 +9,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          apt update && apt install reprepro
+          sudo apt update && sudo apt install reprepro
 
           # import keys
           echo "$GPG_PRIVATE_KEY" > priv.gpg
