@@ -19,7 +19,7 @@ INDEX_TEMPLATE = r"""
         % endfor
     <tr><th colspan="5"><hr></th></tr>
 </table>
-<address>Apache/2.4.41 (Ubuntu) Server at package.netzint.de Port 80</address>
+<address>Static directory listing :)</address>
 </body></html>
 """
 
