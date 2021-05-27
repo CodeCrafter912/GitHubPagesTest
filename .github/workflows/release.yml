@@ -29,7 +29,6 @@ jobs:
 
           mkdir deploy
           mv dists deploy
-          mv lists deploy
           mv pool deploy
 
       - name: Deploy 🚀
