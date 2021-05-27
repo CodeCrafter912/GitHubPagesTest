@@ -28,6 +28,7 @@ jobs:
           reprepro -V export
 
           mkdir deploy
+          cp pub.gpg deploy
           mv dists deploy
           mv pool deploy
 
