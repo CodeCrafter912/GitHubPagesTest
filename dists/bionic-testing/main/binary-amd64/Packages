@@ -1,0 +1,18 @@
+Package: linuxmuster-linbo-gui7
+Version: 7.0.1-rc03
+Architecture: all
+Maintainer: Thomas Schmitt <thomas@linuxmuster.net>, Dorian Zedler <dorian@itsblue.de>
+Installed-Size: 16460
+Depends: linuxmuster-linbo7 (>= 2.4.0)
+Homepage: https://github.com/linuxmuster/linuxmuster-linbo-gui
+Priority: extra
+Section: admin
+Filename: pool/main/l/linuxmuster-linbo-gui7/linuxmuster-linbo-gui7_7.0.1-rc03_all.deb
+Size: 16795360
+SHA256: f4a3cf4eae1e36919a37495f17e1ff419e635e565ab372cd88f4d18625ebfb4b
+SHA1: 4f4e37f06f1f15339f23973df9577637162c003d
+MD5sum: bfada2450181a88e2d05147cf68ef59d
+Description: Linuxmuster Linbo GUI
+ This package contains the GUI for the Linux-based Network Boot
+ (LINBO) boot/install/repair system.
+

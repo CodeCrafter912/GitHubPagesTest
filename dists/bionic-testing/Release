@@ -1,0 +1,37 @@
+Origin: codecrafter912.github.io
+Label: codecrafter912.github.io
+Codename: bionic-testing
+Date: Thu, 27 May 2021 21:01:50 UTC
+Architectures: i386 amd64
+Components: main
+Description: bionic testing
+MD5Sum:
+ 6ac7470b07f3f68cba856843503d7c42 712 main/binary-i386/Packages
+ 2fa8b6c3010d041c7faca727c01f51f9 472 main/binary-i386/Packages.gz
+ fbf4af85dd02112aaba22359aa04ed4e 128 main/binary-i386/Release
+ 6ac7470b07f3f68cba856843503d7c42 712 main/binary-amd64/Packages
+ 2fa8b6c3010d041c7faca727c01f51f9 472 main/binary-amd64/Packages.gz
+ 3f1c1ec93b867c0ac5cb669772f9f472 129 main/binary-amd64/Release
+ d860d32bc36aeef2711bf8f8b3fa38d7 1030 main/source/Sources
+ e8ee106ee44267144b62c000d2dcf9f6 521 main/source/Sources.gz
+ 43f7ccd19b5f90e207672bad467418c5 130 main/source/Release
+SHA1:
+ 367dea2bf528d0061bfeffce05d7382edd32d45f 712 main/binary-i386/Packages
+ 839740c3c9d3b2afeca09feab11aae20978401d0 472 main/binary-i386/Packages.gz
+ 3c954cf970e5bac771de5ad511fc14fdd6303d28 128 main/binary-i386/Release
+ 367dea2bf528d0061bfeffce05d7382edd32d45f 712 main/binary-amd64/Packages
+ 839740c3c9d3b2afeca09feab11aae20978401d0 472 main/binary-amd64/Packages.gz
+ 87a6ad7c82d6ab93ed51386a33c221377ab5b14b 129 main/binary-amd64/Release
+ b70ecb0cc17a736e07541004f2973e7e3a18c7dd 1030 main/source/Sources
+ b77d232634ba88b9b466951ed612012efed56e9d 521 main/source/Sources.gz
+ 7ab1c7707ae96aa046972ad0dc3286f633b2600f 130 main/source/Release
+SHA256:
+ 2987b19f6d7caca6c2172b9d7c7546e39fe8a93add81073f949d3a2a34b56d04 712 main/binary-i386/Packages
+ c487aa3d4621930e5f0162fed45ba8667509933fd981eea0d4f1f8f8f5b693e3 472 main/binary-i386/Packages.gz
+ 097b4ea69e72aa6a3bdb359fef398682aa37d54aea102339b18c0286c3d6d3d1 128 main/binary-i386/Release
+ 2987b19f6d7caca6c2172b9d7c7546e39fe8a93add81073f949d3a2a34b56d04 712 main/binary-amd64/Packages
+ c487aa3d4621930e5f0162fed45ba8667509933fd981eea0d4f1f8f8f5b693e3 472 main/binary-amd64/Packages.gz
+ 37ba419a49ada80291ad91af4e845b470ebeac6a1a5be3db030f4a37aea19182 129 main/binary-amd64/Release
+ 2895ca15d5772ea04b7649787398e306fcf12ed3ccaaf82617032a0e83060c50 1030 main/source/Sources
+ 457432cf14bd4c7d42542de49bfc81da6d5290939d0595485d34e20498054eab 521 main/source/Sources.gz
+ f9ba8f9949c0c1154e3999e1289f0af1ec8ac05a5cca1f648f002cb09cff6892 130 main/source/Release

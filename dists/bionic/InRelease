@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: codecrafter912.github.io
+Label: codecrafter912.github.io
+Codename: bionic
+Date: Thu, 27 May 2021 21:01:50 UTC
+Architectures: i386 amd64
+Components: main
+Description: bionic stable
+MD5Sum:
+ 207ee704e1be1d014ab343148fc3af59 718 main/binary-i386/Packages
+ 78e07c0e615f4bc12f5857977d46fdc1 472 main/binary-i386/Packages.gz
+ c9b7d8e43c5198c4935dc9a7df4a3875 127 main/binary-i386/Release
+ 207ee704e1be1d014ab343148fc3af59 718 main/binary-amd64/Packages
+ 78e07c0e615f4bc12f5857977d46fdc1 472 main/binary-amd64/Packages.gz
+ aafc3fec68262d6b0fc67d7c5ea388d3 128 main/binary-amd64/Release
+ 966287cb0e2d5f14bc6472513124ce47 1051 main/source/Sources
+ a08cbac1f0dd34588961cbb44ad7ad83 523 main/source/Sources.gz
+ 2430d869791192c9c0a28f2b74cddf49 129 main/source/Release
+SHA1:
+ a3d1227ffb90cbcee2f3ff125c54b47ee1047115 718 main/binary-i386/Packages
+ 27bfc5c6e57650f78a823e6f60f780e00e4b38d9 472 main/binary-i386/Packages.gz
+ d276345be9fc9eb6563b9e7317038066b8566c81 127 main/binary-i386/Release
+ a3d1227ffb90cbcee2f3ff125c54b47ee1047115 718 main/binary-amd64/Packages
+ 27bfc5c6e57650f78a823e6f60f780e00e4b38d9 472 main/binary-amd64/Packages.gz
+ 158b89d60d47eb4aa1e2563a388b932b1e1176fc 128 main/binary-amd64/Release
+ 4873919bd18a282cb535bbde10f2c1c3e644d0a6 1051 main/source/Sources
+ 4e29e4ad23e973de794df15bfdbd007be6d2e493 523 main/source/Sources.gz
+ 7730cd2ecbc612aaa5e09f14cfc042045f8f8dcd 129 main/source/Release
+SHA256:
+ 2bc6d46e7a15acc89ffe619a31ff72bc5541d815f17ab6007db7440f3cc5fcde 718 main/binary-i386/Packages
+ 5ad07b8ac8f9a1eeed4e4f9913014c4bc5db8f10e28a633cf62ce0b57362a115 472 main/binary-i386/Packages.gz
+ ed3ab75cfbdee4675267ee22940e7d9148e5b6e3114ba258d972a5e50a6d71b5 127 main/binary-i386/Release
+ 2bc6d46e7a15acc89ffe619a31ff72bc5541d815f17ab6007db7440f3cc5fcde 718 main/binary-amd64/Packages
+ 5ad07b8ac8f9a1eeed4e4f9913014c4bc5db8f10e28a633cf62ce0b57362a115 472 main/binary-amd64/Packages.gz
+ 5c8d39976dadf9ec04972048a27c34433aaa2a255dd2e50c6e2fc2840e022529 128 main/binary-amd64/Release
+ 4d9be1088497cf3edd69629af7f9bad6074231674a57849d5594f34e487b76dd 1051 main/source/Sources
+ 6e5098fea65461b898e682793561037b2ec24cc46703d9ccf67a2f5e841e198c 523 main/source/Sources.gz
+ a4e96cfd3867296159b82c1f2d3787d0ccd2ebf517e9cb6d20fd460126f9b349 129 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEAREIAB0WIQRL2SCcO2eNdSj1sw+4/b0FrSd4uQUCYLAIvgAKCRC4/b0FrSd4
+uRnTAQDQzA7vUUu9cw28/iDE+fStrZzZOm/QDYL1Hfz/RWcbCQEAsJRR7CI2mFTh
+qVcdUXtZ30ygIMMsrKS7/Qpq6sn7THk=
+=99jm
+-----END PGP SIGNATURE-----
