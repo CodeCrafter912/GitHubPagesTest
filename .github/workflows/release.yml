@@ -14,7 +14,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          sudo apt update && sudo apt install reprepro
+          sudo apt update && sudo apt install reprepro python3 python3-pip
+          pip3 install mako
 
           # import keys
           echo "${{ secrets.GPG_PRIVATE_KEY }}" > priv.gpg
@@ -31,6 +32,9 @@ jobs:
           cp pub.gpg deploy
           mv dists deploy
           mv pool deploy
+
+          cd deploy
+          python3 ../createDirectoryListingHtml.py .
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
