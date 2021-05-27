@@ -9,7 +9,14 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          echo "<h1>test</h1>" > index.html
+          apt update && apt install reprepro
+
+          # import keys
+          echo "$GPG_PRIVATE_KEY" > priv.gpg
+          gpg2 --import pub.gpg && gpg2 --import priv.gpg
+          rm priv.gpg
+          
+          reprepro -V -b . includedeb linuxmuster-linbo-gui ./packages/*deb
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
