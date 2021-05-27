@@ -16,7 +16,13 @@ jobs:
           gpg2 --import pub.gpg && gpg2 --import priv.gpg
           rm priv.gpg
           
-          reprepro -V -b . includedeb linuxmuster-linbo-gui ./packages/*deb
+          reprepro -V processincoming default
+          reprepro -V export
+
+          mkdir deploy
+          mv dists deploy
+          mv lists deploy
+          mv pool deploy
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
