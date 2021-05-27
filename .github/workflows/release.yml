@@ -12,7 +12,7 @@ jobs:
           sudo apt update && sudo apt install reprepro
 
           # import keys
-          echo "$GPG_PRIVATE_KEY" > priv.gpg
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" > priv.gpg
           gpg2 --import pub.gpg && gpg2 --import priv.gpg
           rm priv.gpg
           
