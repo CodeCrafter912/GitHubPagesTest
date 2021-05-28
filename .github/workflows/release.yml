@@ -32,7 +32,7 @@ jobs:
           mv dists deploy
           mv pool deploy
 
-          python3 createDirectoryListingHtml.py deploy
+          python3 createDirectoryListingHtml.py deploy --indexPage README.md
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
