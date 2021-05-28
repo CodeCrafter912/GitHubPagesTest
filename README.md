@@ -1,6 +1,11 @@
-# GitHubPagesTest
+<p align="center">
+ <h1 align="center"> - GitHubPagesTest - </h1>
+</p>
 
-[![Build and Deploy](https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml/badge.svg)](https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml)
+<p align="center">
+  <a href="https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml"><img src="https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml/badge.svg" /></a>
+  <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
+</p>
 
 This is an example demonstrating how to host a custom Debian repository using GitHub pages.
 
