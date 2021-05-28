@@ -12,7 +12,7 @@ wget -qO - "https://codecrafter912.github.io/GitHubPagesTest/pub.gpg" | sudo apt
 ```
 2. Add repo:
 ```
-echo "deb https://codecrafter912.github.io/GitHubPagesTest  bionic main" > /etc/apt/sources.list.d/ccTest.list
+echo "deb https://codecrafter912.github.io/GitHubPagesTest bionic main" > /etc/apt/sources.list.d/GitHubActionsTest.list
 ```
 3. Apt update
 ```
