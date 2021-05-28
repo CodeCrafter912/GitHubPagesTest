@@ -1,5 +1,7 @@
 # GitHubPagesTest
 
+[![Build and Deploy](https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml/badge.svg)](https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml)
+
 This is an example demonstrating how to host a custom Debian repository using GitHub pages.
 
 # Setup
