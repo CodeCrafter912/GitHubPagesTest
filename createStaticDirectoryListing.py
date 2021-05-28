@@ -1,7 +1,7 @@
 """ Build index from directory listing
 Inspired by: https://stackoverflow.com/questions/39048654/how-to-enable-directory-indexing-on-github-pages
 
-make_index.py </path/to/directory>
+usage: python3 createStaticDirectoryListing.py [-h] [--indexPage INDEXPAGE] directory
 """
 
 DEFAULT_TEMPLATE = {
@@ -21,10 +21,7 @@ Files in this directory:
 """
 }
 
-import os
-import argparse
-
-# May need to do "pip install mako"
+import os, argparse
 from mako.template import Template
 
 def createDirectoryListing(baseDirectory, template, indexPage = None, subDirectory = ""):
