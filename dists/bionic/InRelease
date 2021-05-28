@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: codecrafter912.github.io
 Label: codecrafter912.github.io
 Codename: bionic
-Date: Fri, 28 May 2021 10:02:47 UTC
+Date: Fri, 28 May 2021 10:05:11 UTC
 Architectures: i386 amd64
 Components: main
 Description: bionic stable
@@ -40,8 +40,8 @@ SHA256:
  a4e96cfd3867296159b82c1f2d3787d0ccd2ebf517e9cb6d20fd460126f9b349 129 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEAREIAB0WIQRL2SCcO2eNdSj1sw+4/b0FrSd4uQUCYLC/xwAKCRC4/b0FrSd4
-uVlIAPkB1Fow0u3dns7ufRb7x8yct+2aqq4Te7da869xsco8twD/QrNwOEWMtBht
-A+tHoadFet30oSRgD3ydzhiVOaMG7M8=
-=iIdk
+iHUEAREIAB0WIQRL2SCcO2eNdSj1sw+4/b0FrSd4uQUCYLDAVwAKCRC4/b0FrSd4
+udERAQDJ8phmPvFqdqv5ZjzTlXs16ftOph8plGfXzJFwDYwbFwEAlrRJTR9O38ky
+NuDJtZSVECdcu5Ar3ZVEhKfcN45s66U=
+=MnAR
 -----END PGP SIGNATURE-----

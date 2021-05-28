@@ -16,11 +16,11 @@ This is an example demonstrating how to host a custom Debian repository using Gi
 To use the repository, please follow these steps:
 1. Import key:
 ```bash
-wget -qO - "https://codecrafter912.github.io/GitHubPagesTest/pub.gpg" | sudo apt-key add -
+wget -qO - "https://itsblue.github.io/github-pages-dep-repo/pub.gpg" | sudo apt-key add -
 ```
 2. Add repo:
 ```bash
-echo "deb https://codecrafter912.github.io/GitHubPagesTest bionic main" > /etc/apt/sources.list.d/GitHubPagesTest.list
+echo "deb https://itsblue.github.io/github-pages-dep-repo bionic main" > /etc/apt/sources.list.d/github-pages-dep-repo.list
 ```
 3. Apt update
 ```bash
