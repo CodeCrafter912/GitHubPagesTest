@@ -11,7 +11,7 @@ DEFAULT_TEMPLATE = {
         "FILE": "🗒", #":spiral_notepad:",
         "UP": "⤴", #":arrow_heading_up:"
     },
-    "excludedFiles": ["index.md"],
+    "excludedFiles": ["index.md", "_config.yml"],
     "template": r"""
 # Index of ${path}
 Files in this directory:
@@ -27,7 +27,7 @@ import argparse
 # May need to do "pip install mako"
 from mako.template import Template
 
-def createDirectoryListing(baseDirectory, template, subDirectory = ""):
+def createDirectoryListing(baseDirectory, template, indexPage = None, subDirectory = ""):
     if baseDirectory.endswith("/"):
         baseDirectory = baseDirectory[:-1]
 
@@ -53,11 +53,15 @@ def createDirectoryListing(baseDirectory, template, subDirectory = ""):
         files.append((fileDisplayName, fileName, fileType))
 
         if fileIsDir:
-            createDirectoryListing(baseDirectory, template, subDirectory + "/" + fileName)
+            createDirectoryListing(baseDirectory, template, indexPage, subDirectory + "/" + fileName)
 
     displayPath = "/" if not subDirectory else subDirectory
 
     fileContents = Template(template["template"]).render(files=files, path=displayPath, icons=template["icons"])
+
+    if not subDirectory and indexPage:
+        with open(indexPage, "r") as indexPageFile:
+            fileContents = indexPageFile.read() + fileContents
     
     with open(thisDirectory + "/" + template["outputFileName"], "w+") as file:
         file.write(fileContents)
@@ -65,9 +69,10 @@ def createDirectoryListing(baseDirectory, template, subDirectory = ""):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("directory")
+    parser.add_argument("--indexPage", required=False, help="Provide a file which will be placed on the index page.")
     args = parser.parse_args()
 
-    createDirectoryListing(args.directory, DEFAULT_TEMPLATE)
+    createDirectoryListing(args.directory, DEFAULT_TEMPLATE, args.indexPage)
 
 if __name__ == '__main__':
     main()
