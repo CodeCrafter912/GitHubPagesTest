@@ -28,13 +28,10 @@ jobs:
           reprepro -V processincoming default
           reprepro -V export
 
-          mkdir deploy
-          cp pub.gpg deploy
           mv dists deploy
           mv pool deploy
 
-          cd deploy
-          python3 ../createDirectoryListingHtml.py .
+          python3 createDirectoryListingHtml.py deploy
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
