@@ -18,8 +18,9 @@ jobs:
           pip3 install mako
 
           # import keys
+          gpg2 --import deploy/pub.gpg
           echo "${{ secrets.GPG_PRIVATE_KEY }}" > priv.gpg
-          gpg2 --import pub.gpg && gpg2 --import priv.gpg
+          gpg2 --import priv.gpg
           rm priv.gpg
           
           mkdir incoming
