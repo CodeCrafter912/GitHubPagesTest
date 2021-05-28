@@ -11,7 +11,7 @@ DEFAULT_TEMPLATE = {
         "FILE": "🗒", #":spiral_notepad:",
         "UP": "⤴", #":arrow_heading_up:"
     },
-    "excludedFiles": ["index.md", "_config.yml", "_layouts"],
+    "excludedFiles": ["index.md", "_config.yml", "_layouts", "README.md"],
     "template": r"""
 # Index of ${path}
 Files in this directory:

@@ -29,6 +29,7 @@ jobs:
 
           mv dists deploy
           mv pool deploy
+          mv deploy/deploy-disclaimer.md deploy/README.md
 
           python3 createStaticDirectoryListing.py deploy --indexPage README.md
 
