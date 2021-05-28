@@ -11,9 +11,9 @@ BASE64_ICONS = {
 }
 
 EMOJI_ICONS = {
-    "DIR": ":file_folder:",
-    "FILE": ":spiral_notepad:",
-    "UP": ":arrow_heading_up:"
+    "DIR": "📁",#":file_folder:",
+    "FILE": "🗒", #":spiral_notepad:",
+    "UP": "⤴", #":arrow_heading_up:"
 }
 
 HTML_TEMPLATE = {
