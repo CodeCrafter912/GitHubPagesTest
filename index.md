@@ -1,5 +1,5 @@
 <p align="center">
- <h1 align="center"> - GitHubPagesTest - </h1>
+ <h1 align="center"> - GitHub pages DEB-repo - </h1>
 </p>
 
 <p align="center">
