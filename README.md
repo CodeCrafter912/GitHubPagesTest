@@ -8,7 +8,7 @@ This is an example demonstrating how to host a custom Debian repository using Gi
 To use the repository, please follow these steps:
 1. Import key:
 ```
-wget "https://codecrafter912.github.io/GitHubPagesTest/pub.gpg" | sudo apt-add key -
+wget -qO - "https://codecrafter912.github.io/GitHubPagesTest/pub.gpg" | sudo apt-key add -
 ```
 2. Add repo:
 ```
