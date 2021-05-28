@@ -45,8 +45,8 @@ MD_TEMPLATE = {
     "template": r"""
 # Index of ${header}
 Files in this directory:
-%for name, type in files:
-- ${icons[type]} [${name}](${name})
+%for displayName, fileName, type in files:
+- ${icons[type]} [${displayName}](${fileName})
 % endfor
 """
 }
@@ -59,31 +59,39 @@ import argparse
 # May need to do "pip install mako"
 from mako.template import Template
 
-def createDirectoryListing(directory, template, hasBackOption=False):
+def createDirectoryListing(baseDirectory, template, subDirectory = ""):
+    if baseDirectory.endswith("/"):
+        baseDirectory = baseDirectory[:-1]
+
+    thisDirectory = baseDirectory + "/" + subDirectory
+
     files = []
 
-    if hasBackOption:
+    if subDirectory:
         files.append((
+            "Parent Directory",
             "../",
             "UP"
         ))
 
-    for fileName in sorted(os.listdir(directory)):
+    for fileName in sorted(os.listdir(thisDirectory)):
         if fileName in EXCLUDED:
             continue
 
-        fileIsDir = os.path.isdir(directory + "/" + fileName)
+        fileIsDir = os.path.isdir(thisDirectory + "/" + fileName)
         fileType = "DIR" if fileIsDir else "FILE"
-        fileDisplayName =   fileName + "/" if fileIsDir else fileName
+        fileDisplayName = fileName + "/" if fileIsDir else fileName
 
-        files.append((fileDisplayName, fileType))
+        files.append((fileDisplayName, fileName, fileType))
 
         if fileIsDir:
-            createDirectoryListing(directory + "/" + fileName, template, True)
+            createDirectoryListing(baseDirectory, template, subDirectory + "/" + fileName)
 
-    fileContents = Template(template["template"]).render(files=files, header=directory, icons=template["icons"])
+    header = "/" if not subDirectory else subDirectory
+
+    fileContents = Template(template["template"]).render(files=files, header=header, icons=template["icons"])
     
-    with open(directory + "/" + template["outputFileName"], "w+") as file:
+    with open(thisDirectory + "/" + template["outputFileName"], "w+") as file:
         file.write(fileContents)
 
 def main():
