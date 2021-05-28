@@ -1,6 +1,6 @@
 
-# Index of ./dists
+# Index of /dists
 Files in this directory:
-- ⤴ [../](../)
-- 📁 [bionic/](bionic/)
-- 📁 [bionic-testing/](bionic-testing/)
+- ⤴ [Parent Directory](../)
+- 📁 [bionic/](bionic)
+- 📁 [bionic-testing/](bionic-testing)

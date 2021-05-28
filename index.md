@@ -1,6 +1,6 @@
 
-# Index of .
+# Index of /
 Files in this directory:
-- 📁 [dists/](dists/)
-- 📁 [pool/](pool/)
+- 📁 [dists/](dists)
+- 📁 [pool/](pool)
 - 🗒 [pub.gpg](pub.gpg)

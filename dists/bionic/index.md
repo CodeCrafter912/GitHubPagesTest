@@ -1,8 +1,8 @@
 
-# Index of ./dists/bionic
+# Index of /dists/bionic
 Files in this directory:
-- ⤴ [../](../)
+- ⤴ [Parent Directory](../)
 - 🗒 [InRelease](InRelease)
 - 🗒 [Release](Release)
 - 🗒 [Release.gpg](Release.gpg)
-- 📁 [main/](main/)
+- 📁 [main/](main)

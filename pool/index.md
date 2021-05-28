@@ -1,5 +1,5 @@
 
-# Index of ./pool
+# Index of /pool
 Files in this directory:
-- ⤴ [../](../)
-- 📁 [main/](main/)
+- ⤴ [Parent Directory](../)
+- 📁 [main/](main)
