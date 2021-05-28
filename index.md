@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml"><img src="https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/release.yml/badge.svg" /></a>
+  <a href="https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/build-and-deploy.yml"><img src="https://github.com/CodeCrafter912/GitHubPagesTest/actions/workflows/build-and-deploy.yml/badge.svg" /></a>
   <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
   <a href="https://www.gnu.org/licenses/agpl-3.0" ><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" /></a>
 </p>
