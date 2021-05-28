@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-This is an example demonstrating how to host a custom Debian repository using GitHub pages.
+This is an example on how to host a custom Debian package repository using GitHub pages.
 </p>
 
 # Setup
